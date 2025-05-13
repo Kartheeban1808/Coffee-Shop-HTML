@@ -1,0 +1,23 @@
+#table{
+    list-style: none;
+    text-transform: capitalize;
+    display: flex;
+    text-indent: 20px;
+    font-size: 30px;
+    justify-content: space-around;
+    color: aliceblue;
+    text-decoration: none;
+
+    
+}
+body{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #87c9ff;
+    padding: 20px;
+}
+#table ul li:hover{
+    text-shadow: 0px 0px 10px rgb(153, 51, 88);
+    transform: translateY(1px);
+}
